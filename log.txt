@@ -1,0 +1,23 @@
+command: find_age 47 12, {None: None}
+command: find_age 47 48, {None: None}command: find_genre non-binaire, {None: None}
+command: find_genre non-binaire, {None: None}
+command: find_genre non-binaire, {None: None}
+command: find_genre femme, {None: None}
+command: find_genre femme, {None: None}
+command: find_genre femme, {None: None}
+command: find_genre femmez, {None: None}
+command: find_genre femme, {None: None}
+command: q, {None: None}
+command: find_genre non-binaire, {None: None}
+command: find_genre femme, {None: None}
+command: find_genre femme, {None: None}
+command: q, {None: None}
+command: find_genre femme, {None: None}
+command: clear, {None: None}
+command: find_orientation bisexuel(le), {None: None}
+command: find_orientation autre, {None: None}
+command: find_orientation autre, {None: None}
+command: find_age 10 20, None
+command: find_age 10 20, None
+command: find_age 10 20, None
+command: find_age 10 20, None
