@@ -82,14 +82,14 @@ orientation = ["Hétérosexuel", "Homosexuel", "Bisexuel", "Pansexuel", "Asexuel
 for i in range(1000):
   db.stock("user", "username", i, random.choice(["femme", "homme", "non-binaire"]), random.choice(orientation).lower())
 
-adrs = 1234
-print(socket.gethostbyname(socket.gethostname()))
+adrs = 1111
+print("172.166.177.129")
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.bind((socket.gethostbyname(socket.gethostname()), adrs))
+sock.bind(("0.0.0.0", adrs))
 
 sock.listen()
 while True:
   client, adrss = sock.accept()
   search(client.recv(4096), adrss, db, "log.txt")
-
+  break
